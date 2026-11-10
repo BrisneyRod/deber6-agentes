@@ -1,0 +1,21 @@
+{
+  "catalog": ["Card", "Text", "Button"],
+  "surface": {
+    "component": "Card",
+    "children": [
+      {
+        "component": "Text",
+        "text": "usuarios.py · línea 21 · severidad: alta"
+      },
+      {
+        "component": "Text",
+        "text": "La entrada nombre se concatena directamente en una consulta SQL."
+      },
+      {
+        "component": "Button",
+        "label": "Solicitar revisión adicional",
+        "event": "pedir_revision"
+      }
+    ]
+  }
+}
